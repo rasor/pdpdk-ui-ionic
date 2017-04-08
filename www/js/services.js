@@ -3,7 +3,7 @@
 
     var pdpConfigService = function () {
         var service = {
-            useFakeRestSystems: false,
+            useFakeRestSystems: true,
             //When using proxy in ionic.project
             //serviceUrl: "http://localhost:8100/api"
             serviceUrl: "http://localhost:44945/api"
