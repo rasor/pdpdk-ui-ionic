@@ -1,0 +1,52 @@
+﻿<ion-view view-title="Tester">
+  <ion-content class="padding">
+    <!--Save clientside model into Angular into viewModel - this is our web.config data-->
+    <div ng-init="setViewModel();"></div>
+
+    <div class="container">
+      <div class="row-stretch">
+        <h3 ng-click="openPopover($event)">Slet cpr formular</h3>
+      </div>
+      <div class="row-stretch">
+
+        <div class="list-borderless">
+
+          <label class="item item-input item-select">
+            <div class="input-label">
+              System
+            </div>
+            <select ng-model="selectedSystem" ng-options="x for x in viewModel.ClaimsSystems"></select>
+          </label>
+
+          <div class="item item-input-inset">
+            &nbsp;Cprnummer&nbsp;
+            <label class="item-input-wrapper">
+              <input type="text" ng-model="claimNo">
+            </label>
+          </div>
+
+          <div class="item item-button-right">Hvad-Nu-Hvis
+            <label class="toggle">
+              <input type="checkbox" ng-model="whatIfDeleteClaim">
+              <div class="track">
+                <div class="handle"></div>
+              </div>
+            </label>
+            <button class="button"   ng-click="onDeleteClaim()" ng-disabled="buttonDeleteClaimDisabled">
+              Slet cpr
+            </button>
+          </div>
+
+          <div class="item">
+            {{successMessage}}
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+  </ion-content>
+</ion-view>

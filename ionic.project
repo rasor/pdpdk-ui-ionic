@@ -1,0 +1,10 @@
+{
+  "name": "PdpDk.UI.Ionic",
+  "app_id": "",
+  "proxiesBak": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://localhost:44945/api"
+    }
+  ]
+}

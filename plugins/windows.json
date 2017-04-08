@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "PdpDk.UI.Ionic"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "PdpDk.UI.Ionic"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "PdpDk.UI.Ionic"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "PdpDk.UI.Ionic"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "PdpDk.UI.Ionic"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "PdpDk.UI.Ionic"
+        }
+    },
+    "dependent_plugins": {}
+}
