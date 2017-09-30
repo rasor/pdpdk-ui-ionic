@@ -1,6 +1,6 @@
 # poc-ui-ionic
 
-A PoC for a mobile frontend for the backend https://github.com/rasor/pdpdk.
+A PoC for a mobile frontend for the backend https://github.com/rasor/poc-back.
 
 Written in Ionic and AngularJS
 
