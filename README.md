@@ -1,4 +1,4 @@
-# pdpdk-ui-ionic
+# poc-ui-ionic
 
 A PoC for a mobile frontend for the backend https://github.com/rasor/pdpdk.
 
